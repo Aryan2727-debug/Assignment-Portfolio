@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Assignment</title>
+</head>
+<body>
+        
+    <div class="sidebar">
+        <img src="images/187885.png" class="main-logo">
+        <h5 class="main-heading">Paguyuban</h5>
+
+        <ul class="sidebar-list">
+            <i class="fa-sharp fa-solid fa-bars"></i><li>Dashboard</li>
+            <br>
+            <i class="fa-solid fa-user"></i><li>Profile</li>
+            <br>
+            <i class="fa-solid fa-user-group"></i><li>Members</li>
+            <br>
+            <i class="fa-sharp fa-solid fa-chart-simple"></i><li>Analytics</li>
+            <br>
+            <i class="fa-solid fa-folder"></i><li>Documents</li>
+            <br>
+            <i class="fa-sharp fa-solid fa-gear"></i><li>Settings</li>
+        </ul>
+        
+        <i class="fa-solid fa-right-from-bracket logout-icon"></i>
+        <p class="logout-button">Logout</p>
+    </div>
+
+    <div class="main-container">
+        <h3 class="welcome-header">Welcome back, <b>Gavin!</b></h3>
+        <h5 class="activity-header">Here are your activities today</h5>
+
+        <div class="date-block"><i class="fa-solid fa-calendar-days"></i> June 09, 2021</div>
+
+        <div class="block-1">
+            <img src="images/file.jpg" style="height: 50px; width: 50px; position: relative; top: -15%; left: 39%; border: 1px solid white; border-radius: 25px;">
+            <h4 style="position: relative; top: 15%; left: 4%;">568</h4>
+            <h6 style="position: relative; top: 16%; left: 4%;">New activities</h6>
+        </div>
+
+        <div class="block-2">
+            <img src="images/download.png" style="height: 50px; width: 50px; position: relative; top: -15%; left: 39%; border: 1px solid white; border-radius: 25px;">
+            <h4 style="position: relative; top: 15%; left: 4%;">2.72k</h4>
+            <h6 style="position: relative; top: 16%; left: 4%;">Total activities</h6>
+        </div>
+
+        <div class="block-3">
+            <img src="images/profile.png" style="height: 50px; width: 50px; position: relative; top: -15%; left: 39%; border: 1px solid white; border-radius: 25px;">
+            <h4 style="position: relative; top: 15%; left: 4%;">382</h4>
+            <h6 style="position: relative; top: 16%; left: 4%;">New members</h6>
+        </div>
+
+        <div class="posts-block">
+            <img src="images/grealish.jpeg" style="position: relative; top: 15%; left: 5%; height: 50px; width: 60px; border: 1px solid white; border-radius: 25px;">
+            <p style="position: relative; top: -2%; left: 15%;"><b>Jack Grealish</b></p>
+            <p style="position: relative; top: -1%; left: 15%; display: inline-block; color: gray;">5 min ago</p>
+
+            <p style="position: relative; top: 0%; left: 15%;">hello all greetings, I'm a new member here, I hope I can collaborate well here, I hope<br>
+            you are always healthy ;)</p>
+
+            <i class="fa-solid fa-heart" style="position: relative; top: 2%; left: 15%;"></i><p style="position: relative; top: 2%; left: 15%;">40 Likes</p>
+            <i class="fa-solid fa-comment" style="position: relative; top: -19%; left: 25%;"></i><p style="position: relative; top: -19%; left: 25%;">15 Comments</p>
+
+            <a href="#" style="position: relative; top: -25%; left: 15%; color: rgb(143, 51, 228);">See all comments</a>
+
+            <input type="text" placeholder="Comment here..." style="position: relative; top: -40%; left: 25%; border: 1px solid black; border-radius: 25px; width: 300px; padding: 2px;">
+            <i class="fa-solid fa-share-from-square" style="position: relative; top: -40%; left: 26%; cursor: pointer;"></i>
+        </div>
+    </div>
+
+    <div class="last-container">
+        <input type="text" placeholder="Search..." style="position: relative; top: 5%; left: 5%; border: 1px solid black; border-radius: 25px; padding: 4px">
+
+        <i class="fa-solid fa-comment" style="position: relative; top: 5%; left: 15%;"></i>
+        <i class="fa-solid fa-bell" style="position: relative; top: 5%; left: 20%;"></i>
+        
+        <h4 style="position: relative; top: 11%; left: 15.5%;">My Profile</h4>
+        <img src="images/profile_pic.jpg" style="height: 200px; width: 200px; position: relative; top: 13%; left: 15%; border: 1px solid white; border-radius: 25px;">
+        <h5 style="position: relative; top: 16%; left: 15.5%;">Gavin Smith</h5>
+        <i class="fa-solid fa-user-group" style="position: relative; top: 16%; left: 17%;"></i>
+        <i class="fa-solid fa-envelope" style="position: relative; top: 16%; left: 19%;"></i>
+        <i class="fa-brands fa-linkedin" style="position: relative; top: 16%; left: 21%;"></i>
+        <i class="fa-brands fa-github" style="position: relative; top: 16%; left: 23%;"></i>
+        <i class="fa-solid fa-phone" style="position: relative; top: 16%; left: 25%;"></i>
+        <p style="position: relative; top: 16.5%; left: 15.5%; font-size: 15px;">UI/UX Designer</p>
+        <p style="position: relative; top: 16%; left: 15.5%; font-size: 14px;">Hi, I'm Gavin as a UX Designer
+        <br>with a 10+ year experience. I've
+        <br>worked with various clients.</p>
+
+        <h5 style="position: relative; top: 16.5%; left: 15.5%;">My Skills</h5>
+        <img src="images/skills.PNG" style="position: relative; top: 18%; left: 15.5%; height: 50px; width: 300px;">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

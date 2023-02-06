@@ -1,0 +1,153 @@
+body{
+    background-color: #a0bfdf;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.sidebar{
+   height: 100vh;
+   width: 230px;
+   background-color: whitesmoke;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+}
+
+.main-logo{
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   top: 5%;
+   left: 5%;
+}
+
+.main-heading{
+    position: relative;
+    top: 6%;
+    left: 30%;
+}
+
+.sidebar-list{
+    position: relative;
+    top: 12%;
+    list-style-type: none;
+}
+
+li:hover{
+    background-color: rgb(173, 131, 212);
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.logout-button{
+    position: relative;
+    top: 25%;
+    left: 14%;
+}
+
+.logout-icon{
+    position: relative;
+    top: 24%;
+    left: 15%;
+}
+
+.logout-button:hover{
+    background-color: rgb(173, 131, 212);
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.main-container{
+    height: 100vh;
+    width: 950px;
+    background-color: rgb(228, 227, 227);
+    position: absolute;
+    top: 0%;
+    left: 15%;
+}
+
+.welcome-header{
+    position: relative;
+    top: 8%;
+    left: 5%;
+    color: rgb(16, 16, 163);
+}
+
+.activity-header{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    color: rgb(82, 80, 80);
+}
+
+.date-block{
+    position: relative;
+    top: -1%;
+    left: 70%;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 140px;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+.block-1{
+    position: relative;
+    top: 20.85%;
+    left: 5%;
+    background-color: whitesmoke;
+    height: 140px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.block-2{
+    position: relative;
+    top: 1.5%;
+    left: 35%;
+    background-color: whitesmoke;
+    height: 140px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.block-3{
+    position: relative;
+    top: -18%;
+    left: 65%;
+    background-color: whitesmoke;
+    height: 140px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.posts-block{
+    position: relative;
+    top: -11%;
+    left: 5%;
+    height: 300px;
+    width: 825px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.last-container{
+    height: 100vh;
+    width: 230px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0%;
+    left: 76.5%;
+    width: 355px;
+}
